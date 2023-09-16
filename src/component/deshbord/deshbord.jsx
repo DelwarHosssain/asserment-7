@@ -1,7 +1,7 @@
 
 const Deshbord = () => {
     return (
-        <div className="md:w-1/4">
+        <div className="">
             <h1>Deshbord</h1>
         </div>
     )

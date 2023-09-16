@@ -2,7 +2,7 @@
 import './App.css'
 import Header from './component/Header/Header';
 import Course from './component/course/course'
-import Deshbord from './component/deshbord/deshbord'
+
 
 
 function App() {
@@ -11,10 +11,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <img src="" alt="" />
-      <div className='mx-14  md:flex md:container md:mx-auto'>
+      <div>
         <Course></Course>
-        <Deshbord></Deshbord>
       </div>
     </>
   )
