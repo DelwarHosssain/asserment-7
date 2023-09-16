@@ -11,9 +11,14 @@ const Course = () => {
     },[])
 
     return (
-        <div className="md:w-3/4 ">
-            <h1>course:{course.length}</h1>
-            <Cousedata></Cousedata>
+        <div className="md:w-3/4 md:grid md:grid-cols-3 gap-5">
+            {
+                course.map(course =><Cousedata
+                     cousedata={course}
+                      key={course.id}>
+                      </Cousedata>)
+            }
+            
         </div>
     );
 };
