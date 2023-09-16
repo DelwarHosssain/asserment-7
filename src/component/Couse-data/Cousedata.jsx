@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const Cousedata = ({cousedata}) => {
     const {img, title, description, price, price_icon,  time, bookmark_icon}=cousedata;
     return (
-        <div className="bg-white p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4">
-            <img src= {img} alt="" />
+        <div className="bg-white p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4 gap-5 ">
+            <img className="" src= {img} alt="" />
             <h1 className="text-lg font-semibold ">{title}</h1>
             <p className="text-base text-[#737272]">{description}</p>
             <div className="flex justify-between">

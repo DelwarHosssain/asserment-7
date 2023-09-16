@@ -12,7 +12,7 @@ function App() {
     <>
       <Header></Header>
       <img src="" alt="" />
-      <div className='md:flex md:container md:mx-auto'>
+      <div className='mx-14  md:flex md:container md:mx-auto'>
         <Course></Course>
         <Deshbord></Deshbord>
       </div>

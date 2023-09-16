@@ -11,7 +11,7 @@ const Course = () => {
     },[])
 
     return (
-        <div className="md:w-3/4 md:grid md:grid-cols-3 gap-5">
+        <div className="md:w-3/4 md:grid md:grid-cols-3 gap-10 md:gap-5">
             {
                 course.map(course =><Cousedata
                      cousedata={course}
