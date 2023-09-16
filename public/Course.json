@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to C Programming",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/DVr7zbL",
+      "price": 1999,
+      "time": "12:00 PM"
+    },
+    {
+      "id": 2,
+      "title": "Introduction to Algorithms",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/cw8V0vC",
+      "price": 2499,
+      "time": "10:30 AM"
+    },
+    {
+      "id": 3,
+      "title": "Introduction to C++ for DSA",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/R4HQPTX",
+      "price": 1499,
+      "time": "3:45 PM"
+    },
+    {
+      "id": 4,
+      "title": "Basic Data Structures",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/WKMLPzY",
+      "price": 2999,
+      "time": "9:00 AM"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to OOP Python",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/ggBWypS",
+      "price": 3999,
+      "time": "1:15 PM"
+    },
+    {
+      "id": 6,
+      "title": "Software Engineering",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/m4m04ss",
+      "price": 999,
+      "time": "5:30 PM"
+    },
+    {
+      "id": 7,
+      "title": "AWS, Cloud Computing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/bX7sWf0",
+      "price": 4999,
+      "time": "11:45 AM"
+    },
+    {
+      "id": 8,
+      "title": "Database (MySQL)",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/nzjrDXd",
+      "price": 3499,
+      "time": "8:30 AM"
+    },
+    {
+      "id": 9,
+      "title": "Problem-Solving Part",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://ibb.co/WHbLfbL",
+      "price": 1999,
+      "time": "2:00 PM"
+    },
+    {
+      "id": 10,
+      "title": "Additional Course",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page.",
+      "img": "https://example.com/image10.jpg",
+      "price": 5499,
+      "time": "7:00 AM"
+    }
+  ]
+  

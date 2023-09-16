@@ -1,14 +1,21 @@
 
 import './App.css'
+import Header from './component/Header/Header';
+import Course from './component/course/course'
+import Deshbord from './component/deshbord/deshbord'
+
 
 function App() {
   
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mt-10 ">
-      Course Registration
-    </h1>
+      <Header></Header>
+      <img src="" alt="" />
+      <div className='md:flex md:container md:mx-auto'>
+        <Course></Course>
+        <Deshbord></Deshbord>
+      </div>
     </>
   )
 }
