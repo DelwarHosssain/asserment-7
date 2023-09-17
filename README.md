@@ -1,21 +1,18 @@
-User Authentication:
+1.Payment Card Integration:
 
-1.Implement user authentication and user profiles.
-*Associate selected courses and their progress with *specific user accounts.
-*Display personalized course recommendations based *on user preferences and history.
-*Course Filtering and Sorting:
+Implement a payment gateway (e.g., Stripe, PayPal, or another suitable provider) to allow users to securely make payments for courses.
+Integrate a payment card form into the checkout process, where users can enter their card details.
+Ensure that the payment process is secure and compliant with industry standards for handling sensitive payment information.
 
-2.Add filtering and sorting options for the list of courses.
-*Allow users to filter courses by category, level, *price range, or other relevant criteria.
-*Implement sorting options such as alphabetical, *price (high to low, low to high), and popularity.
-*Provide a search functionality to help users find *specific courses easily.
-*Course Progress Tracking:
+2.Payment History and Invoices:
 
-Create a feature to track and display the user's *progress in each selected course.
-*Implement progress bars or percentages to show how *much of a course has been completed.
-*Allow users to mark lessons or modules as completed.
+Create a payment history section where users can view their past transactions and invoices.
+Generate and store invoices for each payment made by the user, including details like the course name, price, and payment date.
+Allow users to download and print their invoices for record-keeping purposes.
 
+3. Decide on Filtering Criteria
 
+Determine what criteria you want to allow users to filter by. For example, in your course listing, you might want to allow filtering by category, level, price range, or duration.
 
 আমি কি ভাবে প্রোজেক্টটি করেছি তা নিচে দেওয়া হলোঃ
 
