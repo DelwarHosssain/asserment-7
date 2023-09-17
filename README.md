@@ -1,50 +1,23 @@
-=>Added at least 3 Project features:
+User Authentication:
 
-1.User Authentication:
-
-*Associate selected courses and their progress with
-
-*specific user accounts.
-
-*Display personalized course recommendations based 
-
-*on user preferences and history.
-
+1.Implement user authentication and user profiles.
+*Associate selected courses and their progress with *specific user accounts.
+*Display personalized course recommendations based *on user preferences and history.
 *Course Filtering and Sorting:
 
 2.Add filtering and sorting options for the list of courses.
-*Allow users to filter courses by category, level, 
-
-*price range, or other relevant criteria.
-
-*Implement sorting options such as alphabetical, 
-
-*price (high to low, low to high), and popularity.
-
-*Provide a search functionality to help users find 
-
-*specific courses easily.
-
+*Allow users to filter courses by category, level, *price range, or other relevant criteria.
+*Implement sorting options such as alphabetical, *price (high to low, low to high), and popularity.
+*Provide a search functionality to help users find *specific courses easily.
 *Course Progress Tracking:
 
-3.Create a feature to track and display the user's 
-
-*progress in each selected course.
-
-*Implement progress bars or percentages to show how 
-
-*much of a course has been completed.
-
+Create a feature to track and display the user's *progress in each selected course.
+*Implement progress bars or percentages to show how *much of a course has been completed.
 *Allow users to mark lessons or modules as completed.
 
-*Provide a centralized dashboard where users can see 
-
-*their overall course progress.
 
 
-
-
-=>আমি কি ভাবে প্রোজেক্টটি করেছি তা নিচে দেওয়া হলোঃ
+আমি কি ভাবে প্রোজেক্টটি করেছি তা নিচে দেওয়া হলোঃ
 
 ১.  আমি প্রথমে ডিজাইনের কাজটি করছি।তার জন্য কিছু কম্পোনেন্ট তৈরি করছি।কম্পোনেন্ট এর ভিতরে একটি কে আর একটির সাথে এড করছি।আমি পুরো ওয়েব সাইটে টেলউইন সিএসএস ব্যাবহার করছি।এবং দুইটি কম্পোনেন্ট কে দুই ভাগে ভাগ করছি। 
 
