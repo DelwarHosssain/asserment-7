@@ -3,21 +3,46 @@
 1.User Authentication:
 
 *Implement user authentication and user profiles.
+
 *Allow users to sign up, log in, and log out.
-*Associate selected courses and their progress with *specific user accounts.
-*Display personalized course recommendations based *on user preferences and history.
+
+*Associate selected courses and their progress with
+
+*specific user accounts.
+
+*Display personalized course recommendations based 
+
+*on user preferences and history.
+
 *Course Filtering and Sorting:
 
 2.Add filtering and sorting options for the list of courses.
-*Allow users to filter courses by category, level, *price range, or other relevant criteria.
-*Implement sorting options such as alphabetical, *price (high to low, low to high), and popularity.
-*Provide a search functionality to help users find *specific courses easily.
+*Allow users to filter courses by category, level, 
+
+*price range, or other relevant criteria.
+
+*Implement sorting options such as alphabetical, 
+
+*price (high to low, low to high), and popularity.
+
+*Provide a search functionality to help users find 
+
+*specific courses easily.
+
 *Course Progress Tracking:
 
-3.Create a feature to track and display the user's *progress in each selected course.
-*Implement progress bars or percentages to show how *much of a course has been completed.
+3.Create a feature to track and display the user's 
+
+*progress in each selected course.
+
+*Implement progress bars or percentages to show how 
+
+*much of a course has been completed.
+
 *Allow users to mark lessons or modules as completed.
+
 *Provide a centralized dashboard where users can see 
+
 *their overall course progress.
 
 
