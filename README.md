@@ -2,10 +2,6 @@
 
 1.User Authentication:
 
-*Implement user authentication and user profiles.
-
-*Allow users to sign up, log in, and log out.
-
 *Associate selected courses and their progress with
 
 *specific user accounts.
