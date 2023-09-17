@@ -76,7 +76,7 @@ const Course = () => {
             </div>
              
              <div className="md:w-1/4">
-                <div className="bg-white mt-5 md:mt-auto p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4 gap-5 md:ml-12 w-auro md:w-96">
+                <div className="bg-white mt-5 md:mt-auto p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4 gap-5 md:ml-12 w-auro md:w-96 lg:w-72 " >
              <Deshbord deshbordData={deshbordData} totalRemaining={totalRemaining} TotalTime={TotalTime} totalPrice={totalPrice} >
              </Deshbord>
              </div>
