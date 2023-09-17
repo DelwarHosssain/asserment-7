@@ -1,6 +1,29 @@
+=>Added at least 3 Project features:
 
-<div className="text-bule">
-আমি কি ভাবে প্রোজেক্টটি করেছি তা নিচে দেওয়া হলোঃ
+1.User Authentication:
+
+*Implement user authentication and user profiles.
+*Allow users to sign up, log in, and log out.
+*Associate selected courses and their progress with *specific user accounts.
+*Display personalized course recommendations based *on user preferences and history.
+*Course Filtering and Sorting:
+
+2.Add filtering and sorting options for the list of courses.
+*Allow users to filter courses by category, level, *price range, or other relevant criteria.
+*Implement sorting options such as alphabetical, *price (high to low, low to high), and popularity.
+*Provide a search functionality to help users find *specific courses easily.
+*Course Progress Tracking:
+
+3.Create a feature to track and display the user's *progress in each selected course.
+*Implement progress bars or percentages to show how *much of a course has been completed.
+*Allow users to mark lessons or modules as completed.
+*Provide a centralized dashboard where users can see 
+*their overall course progress.
+
+
+
+
+=>আমি কি ভাবে প্রোজেক্টটি করেছি তা নিচে দেওয়া হলোঃ
 
 ১.  আমি প্রথমে ডিজাইনের কাজটি করছি।তার জন্য কিছু কম্পোনেন্ট তৈরি করছি।কম্পোনেন্ট এর ভিতরে একটি কে আর একটির সাথে এড করছি।আমি পুরো ওয়েব সাইটে টেলউইন সিএসএস ব্যাবহার করছি।এবং দুইটি কম্পোনেন্ট কে দুই ভাগে ভাগ করছি। 
 
@@ -18,12 +41,10 @@
 
 ৭. ForEach ব্যবহার করে লুপের মাধ্যমে সব ডাটাকে নিয়েছিলাম।Let ব্যবহার করে আগের ডাটা গুলোকে নিয়েছিলাম এবং ForEach আগের ডাটা এবং নতুন ডাটা গুলোকে যোগ করে দিয়েছিলাম। এবং ডাটা গুলোকে কল করে দিয়েছিলাম এবং ডিকটারিং ব্যবহার করে ডাটা গুলোকে অন্য কোম্পানিতে পাঠিয়ে দিয়েছিলাম। 
 
-<p>৮.এবং অন্য কম্পনেন্ট এ গিয়ে 
-ডাটা গুলো ওখানে  ডিকটারিং পড়ে নিয়েছিলাম।ডাটা গুলোকে ডায়নামিক করেছিলাম। এবং বাটনে ক্লিক করার পর টোটাল টাইম থেকে রিমেনিং বাদ দিলে যেটা থাকে সেটি শো করেছিলাম। এবং যদি টোটাল টাইম রিমেনিং টাইম ডাটা বিষের কম হয় তাহলে একটি এলার্ট দিবে আপনার ক্রেডিট শেষ। একইভাবে স্টেট করে প্রাইস টা অ্যাড করেছিলাম।</p> 
-
+৮.এবং অন্য কম্পনেন্ট এ গিয়ে 
+ডাটা গুলো ওখানে  ডিকটারিং পড়ে নিয়েছিলাম।ডাটা গুলোকে ডায়নামিক করেছিলাম। এবং বাটনে ক্লিক করার পর টোটাল টাইম থেকে রিমেনিং বাদ দিলে যেটা থাকে সেটি শো করেছিলাম। এবং যদি টোটাল টাইম রিমেনিং টাইম ডাটা বিষের কম হয় তাহলে একটি এলার্ট দিবে আপনার ক্রেডিট শেষ। একইভাবে স্টেট করে প্রাইস টা অ্যাড করেছিলাম।</
 
 
 
 এই ছিল আমার প্রজেক্ট এর বিস্তারিত।
  ধন্যবাদ
-</div>
