@@ -44,7 +44,9 @@ const Course = () => {
                 setTotalTime(count);
                 setTotalRemaining(totalRemaining);
                 setDeshbordData([...deshbordData,course]);
-                setTotalPrice(totalPrice + parseFloat(selectedCourse.price));
+
+                setTotalPrice(totalPrice + parseFloat(course.price));
+                
         }
         
     }
