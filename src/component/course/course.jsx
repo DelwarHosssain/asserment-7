@@ -53,7 +53,7 @@ const Course = () => {
     console.log(deshbordData); 
     
     return (
-        <div className="mx-14  md:flex md:container md:mx-auto xl:container xl:mx-auto">
+        <div className="mx-10  md:flex md:container md:mx-auto xl:container xl:mx-auto">
             <div className="md:w-3/4 md:grid md:grid-cols-2  lg:grid-cols-3 gap-10 md:gap-5 " >
                 {
                 course.map(course =>(
@@ -76,7 +76,7 @@ const Course = () => {
             </div>
              
              <div className="md:w-1/4">
-                <div className="bg-white p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4 gap-5 ml-12 w-96">
+                <div className="bg-white mt-5 md:mt-auto p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4 gap-5 md:ml-12 w-auro md:w-96">
              <Deshbord deshbordData={deshbordData} totalRemaining={totalRemaining} TotalTime={TotalTime} totalPrice={totalPrice} >
              </Deshbord>
              </div>
