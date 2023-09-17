@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 // eslint-disable-next-line react/prop-types
-const Deshbord = ({deshbordData,totalRemaining,TotalTime}) => {
+const Deshbord = ({deshbordData,totalRemaining,TotalTime,totalPrice}) => {
     console.log(deshbordData);
 
     return (
@@ -13,15 +13,16 @@ const Deshbord = ({deshbordData,totalRemaining,TotalTime}) => {
             {
                 // eslint-disable-next-line react/prop-types
                 deshbordData.map((Course) =>(
-                    <li key={Course.id} type="1">{Course.title}</li>
-                    
+                    <div key={Course.id} className="text-base  font-normal text-[#737272]">
+                        <li type="1" key={Course.id} >{Course.title}</li>
+                    </div>
                     
                 ))
             }
             <hr />
-            <h1>Total Credit Hour : {TotalTime}</h1>
+            <h1 className="text-base  font-medium">Total Credit Hour : {TotalTime}</h1>
             <hr />
-            <h1>Total Price : 48000 USD</h1>
+            <h1 className="text-base  font-medium">Total Price : {totalPrice} USD</h1>
         </div>
     )
 };

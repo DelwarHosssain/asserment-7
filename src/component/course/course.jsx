@@ -9,6 +9,7 @@ const Course = () => {
     const[deshbordData, setDeshbordData] =useState([]);
     const [totalRemaining, setTotalRemaining]=useState(0)
     const [TotalTime, setTotalTime]=useState(0)
+    const [totalPrice, setTotalPrice] = useState(0);
 
     useEffect(() =>{
         fetch('Course.json')
@@ -21,19 +22,29 @@ const Course = () => {
         const isExist = deshbordData.find((itam) => itam.id == course.id)
         
         let count = parseInt(course.time);
+        // eslint-disable-next-line no-unused-vars
+        let counts = parseInt(course.peice);
 
         if(isExist){
            return alert("all ready book");
             }
             else{
                 deshbordData.forEach((item) =>{
-                    count+= parseInt(item.time);;
+                    count+= parseInt(item.time);
                 })
-                console.log(count);
+                deshbordData.forEach((item) =>{
+                    counts+= parseInt(item.peice);
+                })
+                console.log(counts)
+                
                 const totalRemaining =20-count;
+                if(count>20){
+                    return alert("You Limited End")
+                }
                 setTotalTime(count);
                 setTotalRemaining(totalRemaining);
                 setDeshbordData([...deshbordData,course]);
+                setTotalPrice(totalPrice + parseFloat(selectedCourse.price));
         }
         
     }
@@ -64,7 +75,7 @@ const Course = () => {
              
              <div className="md:w-1/4">
                 <div className="bg-white p-5 shadow-lg shadow-indigo-500/50 rounded-lg space-y-4 gap-5 ml-12 w-96">
-             <Deshbord deshbordData={deshbordData} totalRemaining={totalRemaining} TotalTime={TotalTime} >
+             <Deshbord deshbordData={deshbordData} totalRemaining={totalRemaining} TotalTime={TotalTime} totalPrice={totalPrice} >
              </Deshbord>
              </div>
              </div>
